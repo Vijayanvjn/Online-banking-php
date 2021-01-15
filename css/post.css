@@ -1,0 +1,48 @@
+	
+.post-box{
+box-shadow: 1px 3px 3px 2px lightgrey;
+width: 80%;
+margin: 70px auto;
+padding: 15px;	
+}
+.title{
+	height: 40px;
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+.content, .title, .content:focus, .title:focus{
+	width: 100%;
+	outline: none;
+	padding: 5px;
+}
+.content{
+	font-size: 20px;
+}
+.post-box h3{
+	margin-top:0px;
+}
+.err{
+	color: #fc0703;
+	font-weight: 600;
+}
+.all-posts{
+	float: right;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+.post_table{
+	width: 95% !important;
+	margin: 50px auto;
+}
+.post-view{
+	padding:30px 75px;
+}
+/*.post-content h1{
+	color: #a454d6;
+}*/
+.post-description p{
+	font-style: italic;
+	margin-bottom: 5px;
+	font-weight: 600;	
+/*	color: #a3eb28;*/
+}

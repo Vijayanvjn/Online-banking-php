@@ -1,0 +1,27 @@
+.note{
+	text-align: left;
+	margin-left: 15px;
+}
+.note ul{
+	list-style-type: disc;
+}
+.note ul li{
+	margin-bottom: 5px;
+}
+.note p{
+	font-weight: 600;
+}
+.body-cntn::placeholder{
+	text-align: right;
+}
+.loan-amount{
+	color:#a3eb28;
+}
+.loaned h3{
+	text-align: right;
+	margin-right: 15px;
+}
+.confirm-form input{
+	color:#fff;
+	font-weight: 600;
+}

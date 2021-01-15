@@ -1,0 +1,16 @@
+<?php
+	if($_GET){
+		$user_id=$_GET['user_id'];
+		$user=$_GET['user'];	
+	}
+	if(!isset($_SESSION['logged_in'])){
+    header("Location:page.php");
+    die();
+    }
+    if(time()-$_SESSION['time']>300){
+        session_unset();
+        session_destroy();
+        header("location:timeout.php");
+    }
+    $_SESSION['time']=time();
+?>

@@ -1,0 +1,26 @@
+.rent-box{
+	height: 400px;
+    width: 300px;
+    margin: 30px auto 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    color:#fff;
+    background-image: linear-gradient(#ec008c,#fc6767);
+}
+.rent-box p{
+	font-weight: 600;
+}
+
+.quantity{
+	display: block;
+	margin:5px auto 15px;
+}
+.select-unit{
+	font-weight: 600;
+	text-align: center;
+}
+.due{
+	color:red;
+}

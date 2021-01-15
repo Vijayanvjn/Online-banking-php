@@ -1,0 +1,53 @@
+body{
+	background: linear-gradient(rgba(0,0,50,0.3),rgba(0,0,50,0.3)),url('../images/secure.jpg');
+	background-position: center;
+	background-size:cover;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	min-height:100vh;
+}
+.wrapper{
+	width:350px;
+	background:rgba(0,0,0,0.3);
+	padding:25px;
+	border-radius: 16px;
+	text-align: center;
+}
+label,h1,p,a,a:hover,.form-control,.form-control:focus,.wrapper, #edittable{
+	color:#fff !important;
+}
+a{
+	text-decoration: underline;
+}
+#login,#signup{
+	margin-top:15px;
+}
+.form-control,.form-control:focus{
+	font-weight: 600;
+}
+.form-control, .form-control:focus, .btn-primary{
+	background: transparent !important;
+}
+.btn-primary, .btn-primary:hover{
+	border:2px solid #fff;
+}
+span{
+	color:#ff0022;
+	font-weight: 600;
+}
+#edittable{
+	border-collapse: collapse;
+	text-align: center;
+}
+#edittable, #edittable td, #edittable th, #editable:focus, #editable:active{
+	border:1px solid #fff !important;
+	outline: none !important;
+}
+#edittable td,#edittable th{
+	width:170px;
+	height:35px;
+}
+.acc-type option{
+	color:#000 !important;
+}

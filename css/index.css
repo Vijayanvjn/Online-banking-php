@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  /*font-family: 'Roboto', sans-serif;*/
+}
+.sidebar {
+  position: fixed;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #038894;
+  transition: all .5s ease;
+  overflow-x: auto;
+}
+
+.sidebar .side-header {
+  font-size: 15px;
+  color: white;
+  line-height: 25px;
+  text-align: center;
+  background: #02707a;
+  user-select: none;
+  padding:10px 0px;
+  font-weight: 600;
+}
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255,255,255,.1);
+  transition: .4s;
+}
+.admin-sidebar ul a{
+  line-height: 48px;
+}
+ul.sidemenu_list li:hover a{
+  padding-left: 50px;
+  text-decoration: none;
+}
+.sidebar ul a i{
+  margin-right: 16px;
+}
+#check{
+  display: none;
+}
+label{
+  display: inline !important;
+}
+label #btn,label #cancel{
+  background: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  z-index: 5;
+}
+label #btn{
+  position: absolute;
+  left: 40px;
+  top: 52px;
+  font-size: 35px;
+  color: #fff;
+  padding: 6px 12px;
+  transition: all .5s;
+}
+label .admin-bar{
+  top:20px !important;
+}
+label #cancel{
+  position: fixed;
+  z-index: 1111;
+  left: -195px;
+  top: 25px;
+  font-size: 30px;
+  color: #fff;
+  padding: 4px 9px;
+  transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel{
+  left: 185px;
+}
+#check:checked ~ .body-cntn{
+  margin-left: 250px;
+}
+.body-cntn{
+  transition: all .5s;
+}
+.side-header{
+  height:auto !important;
+}
+.welcome_user{
+  margin-bottom: 15px;
+}
+.welcome_user:hover{
+  cursor: pointer;
+}
+.welcome_user:before{
+  font-size: 60px;
+}
+#profile{
+  display: none;
+}
+.profile-box{
+  display: inline-block;
+}
+.profile-box img{
+  height:100px;
+  width: 100px;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+#upload{
+  padding:5px;
+  border:none;
+  background:#038894;
+}

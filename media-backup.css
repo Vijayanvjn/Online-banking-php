@@ -1,0 +1,122 @@
+@media screen and (max-width:768px){
+	.wrapper{
+		width: 275px;
+	}
+	
+	.header-title{
+		text-align: center;
+		font-size:18px;
+		margin:15px 0px;
+	}
+	label #btn{
+		position:absolute;
+		left:10px;
+		top:50px;
+		font-size:18px;
+	}
+	#search{
+		height: 30px;
+		width: 150px;
+	}
+	.search-div{
+		position: static;
+		text-align: right;
+		margin-bottom: 12px;
+	}
+	.search-icon{
+		top:8px;
+		right: 20px;
+		position: absolute;
+	}
+	header .dropdown{
+		margin-right: 0px;
+	}
+	header{
+		height: auto;
+	}
+	.sidebar{
+		width: 100%;
+		z-index: 2;
+		left: auto;
+		right: 101%;
+	}
+	.sidebar ul a{
+		text-align: center;
+		padding-left:0px;
+		line-height: 80px;
+	}
+	ul li:hover a{
+		padding-left: 0px;
+	}
+	#check:checked ~ .body-cntn{
+		margin-left:0px;
+	}
+	#check:checked ~ label #cancel{
+		color:#fff;
+		right: 40px;
+		left:auto;
+	}
+	label #cancel{
+		left:100%;
+	}
+	.nav-drop{
+		padding:0px 0px 0px 0px;
+	}
+	.index-wrapper{
+		height: auto;
+	}
+	h1.title{
+		font-size: 26px;
+		margin-top:0px;
+	}
+	.login-div{
+		position: relative;
+	}
+	.login{
+		margin-top:0px;
+		margin-bottom: :0px;
+		right: 20px;
+		bottom:5px;
+	}
+	ul.nav-bar{
+		padding:0px;
+	}
+	ul.nav-bar li{
+		display: block;
+	}
+	ul.nav-bar li a{
+		margin-right: 0px;
+	}
+	.cntn-head{
+		margin-top:30px;
+	}
+	.cntn{
+		padding-bottom: 35px;
+	}
+}
+
+/*@media screen and (max-width: 320px){
+label #btn {
+	position: absolute;
+	top:75px !important;
+}
+.wrapper{
+	width: 275px !important;
+}
+}*/
+
+
+@media screen and (min-width: 769px) and (max-width: 1199px){
+	.header-title{
+		font-size: 30px;
+	}
+	.search-div{
+		margin:0px;
+	}
+	header .dropdown{
+		margin-right: 0px;
+		right:5px;
+		top:10px;
+		font-size: 10px;
+	}
+}

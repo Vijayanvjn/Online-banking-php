@@ -1,0 +1,179 @@
+@media screen and (min-width:320px) and (max-width:991px){  /*mobile and tablet*/
+	.header-title{
+		text-align: center;
+		font-size:18px;
+		margin:15px 0px;
+	}
+	label #btn{
+		position:absolute;
+		left:10px;
+		top:10px;
+		font-size:18px;
+	}
+	.header-content{
+		height: 50px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#search{
+		height: 30px;
+		width: 150px;
+	}
+	.search-div{
+		position: static;
+		text-align: right;
+		margin-bottom: 12px;
+	}
+	.search-icon{
+		top:15px;
+		right: 20px;
+		position: absolute;
+	}
+	.header .dropdown{
+		margin-right: 0px;
+	}
+	.header{
+		height: auto;
+	}
+	.sidebar{
+		width: 100%;
+		z-index: 2;
+		left: auto;
+		right: 101%;
+	}
+	.sidebar ul a{
+		text-align: center;
+		padding-left:0px;
+		line-height: 80px;
+	}
+	ul li:hover a{
+		padding-left: 0px;
+	}
+	#check:checked ~ .body-cntn{
+		margin-left:0px;
+	}
+	#check:checked ~ label #cancel{
+		color:#fff;
+		right: 40px;
+		left:auto;
+	}
+	label #cancel{
+		left:100%;
+	}
+	.nav-drop{
+		padding:0px 0px 0px 0px;
+	}
+	.index-wrapper{
+		height: auto;
+	}
+	h1.title{
+		font-size: 26px;
+		margin-top:0px;
+	}
+	.login-div{
+		position: relative;
+	}
+	.login{
+		margin-top:0px;
+		margin-bottom: :0px;
+		right: 20px;
+		bottom:5px;
+	}
+	ul.nav-bar{
+		padding:0px;
+	}
+	ul.nav-bar li{
+		display: block;
+	}
+	ul.nav-bar li a{
+		margin-right: 0px;
+	}
+	.cntn-head{
+		margin-top:30px;
+	}
+	.cntn{
+		padding-bottom: 35px;
+	}
+	
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){ /* mobile only */
+
+	.acc-trans, .rec-trans{
+		width: 275px;
+		height: 275px;
+		margin:15px auto;
+	}
+	.transfer-entry{
+		margin-top: 15px;
+	}
+	.form-custom{
+		width: 275px;
+	}
+	.detail-1, .detail-2{
+		width: 100%;
+		height: auto;
+		margin-bottom: 25px;
+	}
+	.detail p{
+		font-size: 12px;
+	}
+	.download{
+		padding: 0px;
+		height: 25px;
+		width: 25px;
+		font-size: 15px;
+		right: 10px;
+	}
+	.user-box{
+		width: 100%;
+		margin:15px 0px;
+	}
+	.user-box:nth-child(odd),.user-box:nth-child(even){
+		float: none !important;
+	}
+	.btn-edit{
+		margin-left: 10px;
+	}
+
+	.user{
+		width: 94%;
+		padding:25px 0px;
+	}
+	.upi .fa-check-circle{
+		font-size: 70px;
+	}
+	.success-cntn p{
+		font-size: 14px;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.detail-1, .detail-2{
+		width: 400px;
+		margin-bottom: 25px;
+		/*margin-bottom: 15px;*/
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.detail-1, .detail-2{
+		width: 350px;
+	}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px){   /* tablet and desktop */
+	.header-title{
+		font-size: 20px;
+	}
+	.search-div{
+		margin:0px;
+	}
+	header .dropdown{
+		margin-right: 0px;
+		right:5px;
+		font-size: 10px;
+	}
+}
